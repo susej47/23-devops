@@ -25,3 +25,6 @@ jobs:
     - name: Analysing the code with flake8
       run: |
         flake8 $(git ls-files '*.py')
+    - name: Run Python unit tests
+      run: 
+        python3 -u -m unittest discover
