@@ -7,4 +7,4 @@ def suma(a: int, b: int) -> int:
     # no ha considerado caso string
     """
 
-    return a + b
+    return int(a) + int(b)
